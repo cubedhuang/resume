@@ -19,16 +19,26 @@
 				position: static;
 			}
 		</style>
+
+		<script>
+			twind.install({
+				theme: {
+					fontFamily: {
+						sans: ["Inter", "ui-sans-serif", "system-ui"]
+					}
+				}
+			});
+		</script>
 	</head>
 
 	<body
-		class="font-[Inter] bg-blue-50 grid place-items-center min-h-screen p-8 print:!p-0"
+		class="bg-blue-50 grid place-items-center min-h-screen p-8 print:!p-0"
 	>
 		<div class="bg-white w-[8.5in] h-[11in] p-[0.5in] flex gap-[0.25in]">
 			<div class="flex-1">
 				<h1 class="text-4xl font-bold text-blue-700">Daniel Huang</h1>
 
-				<p class="mt-4 text-sm leading-relaxed text-gray-700">
+				<p class="mt-4 text-sm leading-relaxed text-gray-600">
 					Frontend software engineer building
 					<b class="text-blue-700">
 						beautiful, accessible, and performant
@@ -36,28 +46,45 @@
 					web applications.
 				</p>
 
-				<h2 class="mt-8 font-bold text-lg text-blue-700">
-					Work Experience
-				</h2>
+				<h2 class="mt-6 font-bold text-lg text-blue-700">Education</h2>
 
-				<ul class="mt-4 text-sm leading-relaxed">
+				<ul class="mt-2 text-xs leading-relaxed">
 					<li>
-						<h3 class="text-gray-900">
+						<h3 class="text-gray-900 text-sm">
+							<span class="font-bold">
+								Georgia Institute of Technology
+							</span>
+							<span class="italic text-gray-600 text-xs">
+								May 2028
+							</span>
+						</h3>
+						<p class="mt-1 text-gray-600">
+							Bachelor of Science in Computer Science &middot; GPA
+							4.0/4.0
+						</p>
+					</li>
+				</ul>
+
+				<h2 class="mt-6 font-bold text-lg text-blue-700">Experience</h2>
+
+				<ul class="mt-2 text-xs leading-relaxed">
+					<li>
+						<h3 class="text-gray-900 text-sm">
 							<span class="font-bold">
 								Founding Frontend Engineer
 							</span>
 							<span> &middot; Lynk Holdings </span>
-							<span class="italic text-gray-700 text-xs">
-								November 2022 &mdash; Present
+							<span class="italic text-gray-600 text-xs">
+								November 2022 &ndash; Present
 							</span>
 						</h3>
 
-						<ul class="text-gray-700 mt-1 ml-6 list-disc">
+						<ul class="text-gray-600 mt-1 ml-6 list-disc">
 							<li>
 								Build and ship websites, design systems, and
 								cross-platform experiences using a vast array of
 								technologies including JavaScript, TypeScript,
-								SvelteKit, React, Tailwind CSS, and more.
+								SvelteKit, React, and Tailwind CSS.
 							</li>
 
 							<li>
@@ -73,79 +100,116 @@
 						</ul>
 					</li>
 
-					<li class="mt-6">
-						<h3 class="text-gray-900">
+					<li class="mt-3">
+						<h3 class="text-gray-900 text-sm">
+							<span class="font-bold">
+								Code Quest Competitor
+							</span>
+							<span> &middot; Lockheed Martin </span>
+							<span class="italic text-gray-600 text-xs">
+								February 2024
+							</span>
+						</h3>
+
+						<ul class="text-gray-600 mt-1 ml-6 list-disc">
+							<li>
+								Competed in the Advanced division, placing 2<sup
+									>nd
+								</sup>
+								among over 200 participants.
+							</li>
+						</ul>
+					</li>
+
+					<li class="mt-3">
+						<h3 class="text-gray-900 text-sm">
 							<span class="font-bold">
 								Fullstack Development Intern
 							</span>
 							<span> &middot; AI Camp </span>
-							<span class="italic text-gray-700 text-xs">
-								January 2023 &mdash; May 2023
+							<span class="italic text-gray-600 text-xs">
+								January 2023 &ndash; May 2023
 							</span>
 						</h3>
 
-						<ul class="text-gray-700 mt-1 ml-6 list-disc">
+						<ul class="text-gray-600 mt-1 ml-6 list-disc">
 							<li>
-								Worked alongside a team of interns to create and
-								integrate an automated system to match students
-								with instructors wtih existing projects, using
-								technologies including Node.js, React, and
-								PostgreSQL.
+								Created and integrated an automated system to
+								match students with instructors using React,
+								Node.js, Django, and PostgreSQL.
 							</li>
 
 							<li>
-								Designed and deployed the camp's automated
-								certificate generation system for 1000+ students
-								using Satori and Next.js.
+								Designed and deployed an automated certificate
+								generation system used by 1000+ students using
+								Satori and Next.js.
 							</li>
 						</ul>
 					</li>
 				</ul>
 
-				<h2 class="mt-8 font-bold text-lg text-blue-700">Education</h2>
+				<h2 class="mt-6 font-bold text-lg text-blue-700">Leadership</h2>
 
-				<ul class="mt-4 text-sm leading-relaxed">
+				<ul class="mt-2 text-xs leading-relaxed">
 					<li>
-						<h3 class="text-gray-900">
-							<span class="font-bold"> Walton High School </span>
-							<span class="italic text-gray-700 text-xs">
-								July 2020 &mdash; May 2024
+						<h3 class="text-gray-900 text-sm">
+							<span class="font-bold"> President </span>
+							<span> &middot; Walton Debate Team </span>
+							<span class="italic text-gray-600 text-xs">
+								August 2021 &mdash; May 2024
 							</span>
 						</h3>
-						<ul class="text-gray-700 mt-1 ml-6 list-disc">
+						<ul class="text-gray-600 mt-1 ml-6 list-disc">
 							<li>
-								<b class="text-gray-900">Math Team President</b>
-								in 11<sup>th</sup> and 12<sup>th</sup>
-								grade. Planned and led engaging weekly practices
-								for 50+ members and competed in numerous
-								individual and team competitions, winning the 7A
-								state championship three years in a row.
+								Initiated the first inter-school tournament ever
+								hosted at our school with numerious schools
+								across the state.
 							</li>
 							<li>
-								<b class="text-gray-900"
-									>Debate Team President</b
-								>
-								in 11<sup>th</sup> and 12<sup>th</sup>
-								grade. Initiated the first inter-school
-								tournament ever hosted at our school, organized
-								and led weekly practices, and competed in Public
-								Forum debate.
+								Organized and led weekly practices in and
+								outside of school, competing in Public Forum
+								debate.
+							</li>
+						</ul>
+					</li>
+
+					<li class="mt-3">
+						<h3 class="text-gray-900 text-sm">
+							<span class="font-bold"> President </span>
+							<span> &middot; Walton Math Team </span>
+							<span class="italic text-gray-600 text-xs">
+								August 2020 &mdash; May 2024
+							</span>
+						</h3>
+						<ul class="text-gray-600 mt-1 ml-6 list-disc">
+							<li>
+								Planned and led engaging weekly practices for
+								over 80 members, doubling end-of-year retention
+								and participation.
 							</li>
 							<li>
-								<b class="text-gray-900">Clarinet Player</b>
-								throughout high school. Played in Georgia's
-								All-State band for 4 years, Walton's top band
-								for 4 years, arranged and performed a clarinet
-								duet at a wedding.
+								Competed in numerous individual and team
+								competitions, winning the 7A state championship
+								three years in a row.
 							</li>
+						</ul>
+					</li>
+
+					<li class="mt-3">
+						<h3 class="text-gray-900 text-sm">
+							<span class="font-bold"> Webmaster </span>
+							<span>
+								&middot; Walton Junior Classical League
+							</span>
+							<span class="italic text-gray-600 text-xs">
+								August 2022 &mdash; May 2023
+							</span>
+						</h3>
+						<ul class="text-gray-600 mt-1 ml-6 list-disc">
 							<li>
-								<b class="text-gray-900"
-									>Governor's Honors Program 2023</b
-								>
-								Participant in Mathematics, AP Scholar with
-								Distinction, National Merit Scholarship
-								Semifinalist, and Georgia Certificate of Merit
-								recipient.
+								Redesigned and maintained the club website,
+								winning 5<sup>th</sup> place for our chapter in
+								the National Website Contest.
 							</li>
 						</ul>
 					</li>
@@ -153,9 +217,11 @@
 			</div>
 
 			<div class="shrink-0 w-[2.5in]">
-				<h2 class="mt-3 font-bold text-lg text-blue-700">Connect</h2>
+				<!-- <h2 class="mt-3 font-bold text-lg text-blue-700">Connect</h2> -->
 
-				<ul class="mt-4 text-sm leading-relaxed text-gray-700">
+				<ul
+					class="mt-2 pt-[2.5px] text-sm leading-relaxed text-gray-600"
+				>
 					<li>
 						<a href="mailto:daniel@huang.bio"> daniel@huang.bio </a>
 					</li>
@@ -172,82 +238,100 @@
 					</li>
 				</ul>
 
-				<h2 class="mt-8 font-bold text-lg text-blue-700">Skills</h2>
+				<h2 class="mt-6 font-bold text-lg text-blue-700">Skills</h2>
 
-				<ul class="mt-4 text-xs leading-normal">
+				<ul class="mt-2 text-xs leading-normal">
 					<li>
 						<h3 class="font-bold text-sm text-gray-900">
 							Languages
 						</h3>
-						<p class="mt-1 text-gray-700">
-							JavaScript, TypeScript, HTML, CSS, Python, Rust
+						<p class="mt-1 text-gray-600">
+							JavaScript, TypeScript, HTML, CSS, Java, Python,
+							Rust, C#, C++
 						</p>
 					</li>
 
-					<li class="mt-4">
+					<li class="mt-3">
 						<h3 class="font-bold text-sm text-gray-900">
 							Libraries and Frameworks
 						</h3>
-						<p class="mt-1 text-gray-700">
+						<p class="mt-1 text-gray-600">
 							Svelte, SvelteKit, React, Next.js, Tailwind CSS,
 							Node.js, PostgreSQL, Prisma, Bun
 						</p>
 					</li>
 
-					<li class="mt-4">
-						<h3 class="font-bold text-sm text-gray-900">Tools</h3>
-						<p class="mt-1 text-gray-700">
+					<li class="mt-3">
+						<h3 class="font-bold text-sm text-gray-900">
+							Tools and Platforms
+						</h3>
+						<p class="mt-1 text-gray-600">
 							Git, GitHub, Figma, Vercel, Cloudflare, Fly.io,
 							Firebase, Docker, Playwright
 						</p>
 					</li>
 				</ul>
 
-				<h2 class="mt-8 font-bold text-lg text-blue-700">
+				<h2 class="mt-6 font-bold text-lg text-blue-700">
 					Personal Projects
 				</h2>
 
-				<ul class="mt-4 text-xs leading-normal">
+				<ul class="mt-2 text-xs leading-normal">
 					<li>
 						<h3 class="font-bold text-sm text-gray-900">
 							<a href="https://nimi.li"> nimi.li </a>
 						</h3>
-						<p class="mt-1 text-gray-700">
-							Cross-platform dictionary web application for the
-							constructed language Toki Pona, built with SvelteKit
-							and Tailwind CSS, deployed on Cloudflare Pages, and
-							installable as a Progressive Web Application with
-							300+ daily active users.
+						<p class="mt-1 text-gray-600">
+							Cross-platform, multilingual dictionary webapp with
+							300+ daily active users for the constructed language
+							Toki Pona, built with SvelteKit and Tailwind CSS.
 						</p>
 					</li>
 
-					<li class="mt-4">
+					<li class="mt-3">
 						<h3 class="font-bold text-sm text-gray-900">
 							<a href="https://debating.live"> debating.live </a>
 						</h3>
-						<p class="mt-1 text-gray-700">
-							Real-time platform for timer sharing, speech
-							tracking, and more for Public Forum debate, built
-							with SvelteKit, Tailwind CSS, and Socket.IO, and
-							deployed with Fly.io.
+						<p class="mt-1 text-gray-600">
+							Real-time platform for timer sharing and speech
+							tracking for Public Forum debate, built with
+							SvelteKit, Tailwind CSS, and Socket.IO.
 						</p>
 					</li>
 
-					<li class="mt-4">
+					<li class="mt-3">
 						<h3 class="font-bold text-sm text-gray-900">
 							<a href="https://board.dan.onl"
 								>College Board Pseudocode Interpreter</a
 							>
 						</h3>
-						<p class="mt-1 text-gray-700">
-							Built an interactive interpreter website for the
-							College Board's Computer Science Principles
-							pseudocode language to help students prepare for the
-							exam, using Next.js and Tailwind CSS, deployed on
-							Vercel.
+						<p class="mt-1 text-gray-600">
+							Interactive lexer, parser, and interpreter website
+							for the College Board's pseudocode language, helping
+							students prepare for the AP CSP exam.
+						</p>
+					</li>
+
+					<li class="mt-3">
+						<h3 class="font-bold text-sm text-gray-900">
+							<a href="https://board.dan.onl"
+								>Discord Embed Generator</a
+							>
+						</h3>
+						<p class="mt-1 text-gray-600">
+							Tool allowing developers using the Discord API to
+							interactively generate code for rich embeds in
+							various languages.
 						</p>
 					</li>
 				</ul>
+
+				<h2 class="mt-6 font-bold text-lg text-blue-700">Interests</h2>
+
+				<p class="mt-2 text-xs leading-normal text-gray-600">
+					Playing the clarinet, arranging music, learning new
+					languages, and building mechanical keyboards.
+				</p>
 			</div>
 		</div>
 	</body>
